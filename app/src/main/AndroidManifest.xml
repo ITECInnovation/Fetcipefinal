@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:networkSecurityConfig="@xml/network_security_config">
-        <activity android:name="com.group3oop.fetcipe.RecipeListActivity">
+        <activity android:name="com.group3oop.fetcipe.RegisterActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

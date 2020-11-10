@@ -1,10 +1,10 @@
 package com.group3oop.fetcipe.repositories;
 
-import android.arch.lifecycle.LiveData;
-import android.arch.lifecycle.MediatorLiveData;
-import android.arch.lifecycle.MutableLiveData;
-import android.arch.lifecycle.Observer;
-import android.support.annotation.Nullable;
+import androidx.lifecycle.LiveData;
+import androidx.lifecycle.MediatorLiveData;
+import androidx.lifecycle.MutableLiveData;
+import androidx.lifecycle.Observer;
+import androidx.annotation.Nullable;
 
 import com.group3oop.fetcipe.models.Recipe;
 import com.group3oop.fetcipe.requests.RecipeApiClient;

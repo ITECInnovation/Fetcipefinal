@@ -1,7 +1,7 @@
 package com.group3oop.fetcipe.requests;
 
-import android.arch.lifecycle.LiveData;
-import android.arch.lifecycle.MutableLiveData;
+import androidx.lifecycle.LiveData;
+import androidx.lifecycle.MutableLiveData;
 import android.util.Log;
 
 import com.group3oop.fetcipe.AppExecutors;

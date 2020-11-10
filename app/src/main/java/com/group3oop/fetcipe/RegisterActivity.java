@@ -217,10 +217,6 @@ public class RegisterActivity extends AppCompatActivity {
                     }
                 });
 
-
-
-
-
             }
         });
 
@@ -233,7 +229,7 @@ public class RegisterActivity extends AppCompatActivity {
 
     private void updateUI() {
 
-        Intent homeActivity = new Intent(getApplicationContext(), RecipeRecyclerAdapter.class);
+        Intent homeActivity = new Intent(getApplicationContext(), RecipeListActivity.class);
         startActivity(homeActivity);
         finish();
 
